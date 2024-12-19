@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HotelBooking</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <string-array name="type">
+        <item>Select Room</item>
+        <item>Single Bed Room</item>
+        <item>Double Bed Room</item>
+        <item>Delux Bed Room</item>
+    </string-array>
+</resources>

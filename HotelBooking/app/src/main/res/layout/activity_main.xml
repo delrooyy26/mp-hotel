@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="cursive"
+            android:text="Tulsi Hotel"
+            android:textColor="#093960"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt"
+            android:layout_margin="10dp"
+            android:elevation="6dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/single" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="Single Bed-Room"
+                    android:textColor="#093960"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="Overall a great experience, clean and big room.. It serves vegetarian food only..
+Overall a great experience, clean and big room.. It serves vegetarian food only.."
+                    android:textColor="#093960"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnBookNowSingle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Book Now" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card"
+            android:layout_margin="10dp"
+            android:elevation="6dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/doblebed" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="Double Bed-Room"
+                    android:textColor="#093960"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="Overall a great experience, clean and big room.. It serves vegetarian food only.."
+                    android:textColor="#093960"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnBookNowDouble"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Book Now" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="6dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/deluxe" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="Deluxe Double Bed-Room"
+                    android:textColor="#093960"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="Great mountains view..It serves vegetarian food only.."
+                    android:textColor="#093960"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                .
+
+                <Button
+                    android:id="@+id/btnBookNowDeluxe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Book Now" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>
